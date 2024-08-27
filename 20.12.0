@@ -1,0 +1,10 @@
+ WARN  Unsupported engine: wanted: {"node":">=20.12.0"} (current: {"node":"v20.10.0","pnpm":"9.8.0"})
+ ERR_PNPM_UNEXPECTED_VIRTUAL_STORE  Unexpected virtual store location
+
+The dependencies at "C:\Source\nextjs-dashboard\node_modules" are currently symlinked from the virtual store directory at "C:\Source\nextjs_tutorial\nextjs-dashboard\node_modules\.pnpm".
+
+pnpm now wants to use the virtual store at "C:\Source\nextjs-dashboard\node_modules\.pnpm" to link dependencies from the store.
+
+If you want to use the new virtual store location, reinstall your dependencies with "pnpm install".
+
+You may change the virtual store location by changing the value of the virtual-store-dir config.
